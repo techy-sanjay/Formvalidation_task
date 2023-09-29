@@ -1,0 +1,45 @@
+body{
+    background-image:url(home.avif);
+    margin: 0;
+    background-size: cover;
+    font-family: 'Times New Roman', Times, serif;
+}
+h1{
+    color: blueviolet;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+table {
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    width: 100%;
+}
+
+th,td {
+    border: 1px solid #4213ef;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: blueviolet;
+    color: #fff;
+}
+tr:hover{
+    background-color:rgb(255, 255, 255);
+}
+button{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid blueviolet;
+    border-radius: 20px;
+    padding: 10px;
+    margin: 20px 90%;
+    cursor: pointer;
+    font-size: 15px;
+    width: 10%;
+}
